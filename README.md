@@ -25,7 +25,7 @@ Parte I:
   * Películas: Almacena información sobre las películas disponibles.
   * Etiquetas (Tags): Palabras clave asociadas a las películas.
 
-Parte II
+Parte II:
   * Usuarios: Información de los usuarios que interactúan con el sistema.
   * Preguntas y Respuestas: Almacena las preguntas del sistema y las respuestas de los usuarios, incluyendo respuestas correctas e incorrectas.
 
@@ -35,30 +35,30 @@ El archivo incluye las siguientes secciones:
 
 1. Creación de Tablas:
    
-Parte I
+Parte I:
   ```peliculas```: Define las películas con sus atributos como título, año, etc.
   ```tags```: Contiene las etiquetas asociadas a las películas.
   ```peliculas_tags```: Tabla intermedia que relaciona películas con etiquetas (relación muchos a muchos).
 
-Parte II
+Parte II:
   ```usuarios```: Información básica de los usuarios, incluyendo restricciones para evitar registros de menores de 18 años.
   ```preguntas```: Almacena las preguntas del sistema.
   ```respuestas```: Almacena las respuestas dadas por los usuarios, incluyendo si fueron correctas o incorrectas.
 
 3. Inserción de Datos:
    
-Parte I
+Parte I:
    Inserta 5 películas y 5 etiquetas, asociando etiquetas a películas de manera específica.
    
-Parte II
+Parte II:
    Inserta registros en las tablas preguntas y respuestas según las reglas establecidas.
 
 5. Consultas SQL:
    
-Parte I
+Parte I:
    Contar etiquetas por película: Consulta que cuenta cuántas etiquetas están asociadas a cada película.
    
-Parte II
+Parte II:
    Respuestas correctas por usuario: Consulta que cuenta cuántas respuestas correctas ha dado cada usuario, independientemente de la pregunta.
    Respuestas correctas por pregunta: Consulta que cuenta cuántos usuarios respondieron correctamente cada pregunta.
 
