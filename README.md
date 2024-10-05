@@ -60,3 +60,7 @@ El archivo incluye las siguientes secciones:
 
 PostgreSQL instalado.
 El archivo ```pf.sql``` debe ser ejecutado en un entorno PostgreSQL para crear las tablas, insertar los datos y ejecutar las consultas.
+
+## Vídeo Explicativo de Ejecución
+
+Puedes ver el siguiente [vídeo](https://youtu.be/8_bPyzBY7Vw?si=rR6zQCDdwPicYas_) para tener una visión mucho más didactica de su ejecución.
